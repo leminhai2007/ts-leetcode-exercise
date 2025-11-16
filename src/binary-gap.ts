@@ -38,6 +38,7 @@
  * @spaceComplexity O(1) - Constant space
  */
 
+// 100%, no performance assessment
 export function solution(N: number): number {
     const regexpRule = /(?<=1)(0+)(?=1)/g;
 

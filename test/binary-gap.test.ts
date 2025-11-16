@@ -24,6 +24,12 @@ const testData: TestCase[] = [
     { input: 16, expected: 0 },
     { input: 17, expected: 3 },
     { input: 2147483647, expected: 0 }, // Max value, all 1s
+    { input: 1610612737, expected: 28 },
+    { input: 1073741825, expected: 29 },
+    { input: 1376796946, expected: 5 },
+    { input: 805306373, expected: 25 },
+    { input: 74901729, expected: 4 },
+    { input: 66561, expected: 9 },
 ];
 
 describe("Binary Gap @easy @binary-gap", function () {
