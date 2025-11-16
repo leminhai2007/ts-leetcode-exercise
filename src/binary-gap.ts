@@ -37,8 +37,9 @@
  * @timeComplexity O(log N) - Binary representation length
  * @spaceComplexity O(1) - Constant space
  */
+
 export function solution(N: number): number {
-    let regexpRule = /(?<=1)(0+)(?=1)/g;
+    const regexpRule = /(?<=1)(0+)(?=1)/g;
 
     const binaryString = N.toString(2);
     const matches = binaryString.match(regexpRule);

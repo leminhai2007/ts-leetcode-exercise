@@ -2,9 +2,33 @@
 
 This project is set up for practicing LeetCode problems in TypeScript with Mocha for testing.
 
-## Setup
+## Code Quality & Formatting
 
-1. Install dependencies: `yarn install`
+This project uses **ESLint + Prettier** for code quality and consistent formatting:
+
+### ESLint (Linting + Code Quality)
+
+- Catches potential bugs and enforces coding standards
+- TypeScript-specific rules
+- Integrates with Prettier to avoid conflicts
+
+### Prettier (Code Formatting)
+
+- Consistent code formatting
+- Opinionated formatting rules
+- Auto-fixes formatting issues
+
+### Commands
+
+- `yarn lint` - Check for linting issues
+- `yarn lint:fix` - Auto-fix linting and formatting issues
+- `yarn format` - Format code with Prettier
+
+### Git Hooks (Husky)
+
+- **Pre-commit hook**: Automatically runs `yarn lint:fix` and `yarn format` before each commit
+- Ensures code quality and consistent formatting
+- Prevents commits with linting errors or formatting issues
 
 ## Writing Solutions
 
@@ -23,7 +47,7 @@ Example structure:
 
 ```typescript
 /**
- * Problem Title - LeetCode Problem
+ * Problem Title
  *
  * Problem description...
  *
