@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { solution } from "../src/binary-gap";
+import { solution } from "../../src/easy/binary-gap";
 
 interface TestCase {
     input: number;

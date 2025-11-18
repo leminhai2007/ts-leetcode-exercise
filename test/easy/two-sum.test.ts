@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { solution } from "../src/two-sum";
+import { solution } from "../../src/easy/two-sum";
 
 interface TestCase {
     input: {

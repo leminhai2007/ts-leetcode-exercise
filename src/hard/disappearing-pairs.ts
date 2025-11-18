@@ -30,7 +30,7 @@
  * - String S is made only of the characters 'A', 'B', and/or 'C'
  *
  * @topics String, Stack
- * @difficulty Easy
+ * @difficulty Hard
  * @timeComplexity O(n) - Single pass with stack
  * @spaceComplexity O(n) - Stack storage
  */

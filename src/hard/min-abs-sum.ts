@@ -23,12 +23,12 @@
  * - Each element of array A is an integer within the range [−100..100]
  *
  * @topics Array, Dynamic Programming
- * @difficulty Medium
+ * @difficulty Hard
  * @timeComplexity O(n * sum_range) - DP with sum range consideration
  * @spaceComplexity O(sum_range) - DP table for possible sums
  */
 
-// AI'idea, pass 72%, fail performance tests
+// pass 72%, fail performance tests
 export function solution(A: number[]): number {
     if (A.length === 0) return 0;
     if (A.length === 1) return Math.abs(A[0]);

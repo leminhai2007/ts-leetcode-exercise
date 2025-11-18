@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { solution } from "../src/min-abs-sum";
+import { solution } from "../../src/hard/min-abs-sum";
 
 interface TestCase {
     input: number[];

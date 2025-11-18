@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { solution } from "../src/disappearing-pairs";
+import { solution } from "../../src/hard/disappearing-pairs";
 
 interface TestCase {
     input: string;
