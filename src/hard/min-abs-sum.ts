@@ -28,7 +28,8 @@
  * @spaceComplexity O(sum_range) - DP table for possible sums
  */
 
-// pass 72%, fail performance tests
+// 72% pass with 100% correctness and 40% performance
+// https://app.codility.com/demo/results/trainingJ3S88V-2JS/
 export function solution(A: number[]): number {
     if (A.length === 0) return 0;
     if (A.length === 1) return Math.abs(A[0]);

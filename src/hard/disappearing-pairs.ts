@@ -66,7 +66,7 @@
 // }
 
 // correct solution with stack
-
+// https://app.codility.com/demo/results/trainingEYU6CU-P92/
 export function solution(S: string): string {
     if (S.length < 2) return S;
     const stack: string[] = [];

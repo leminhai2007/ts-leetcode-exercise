@@ -24,7 +24,8 @@
  * @spaceComplexity O(1) - Constant space
  */
 
-//100% pass
+// 100% pass
+// https://app.codility.com/demo/results/trainingE2QTJ3-YCN/
 export function solution(K: number, A: number[]): number {
     let count = 0;
     let currentSum = 0;

@@ -38,6 +38,7 @@
  */
 
 // 100% correct solution
+// https://app.codility.com/demo/results/trainingKJWEGC-J44/
 export function solution(N: number): number {
     if (N === 0) return 0;
 

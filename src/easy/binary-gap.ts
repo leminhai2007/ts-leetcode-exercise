@@ -39,6 +39,7 @@
  */
 
 // 100%, no performance assessment
+// https://app.codility.com/demo/results/trainingH7EP2R-E3Q/
 export function solution(N: number): number {
     const regexpRule = /(?<=1)(0+)(?=1)/g;
 
